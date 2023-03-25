@@ -1,4 +1,4 @@
-Some python scripts for recognize songs via Shazam on audio streams and in long files
+Some python scripts for recognize songs via Shazam on audio streams and files
 
 # Stream music recognition by Shazam
 Recognize songs in real-time from a streaming audio source and writes the recognized songs to a file using the Shazam API. 
