@@ -1,6 +1,6 @@
 Some python scripts for recognize songs via Shazam on audio streams and files
 
-# Stream music recognition by Shazam
+# Stream music recognition via Shazam
 Recognize songs in real-time from a streaming audio source and writes the recognized songs to a file using the Shazam API. 
 It can be used to identify songs played on live radio, music streaming services, or any other audio stream.
 
@@ -38,7 +38,7 @@ The script requires the following inputs:
 - output_file: the file path where the recognized songs will be written to (default is "./songs.txt")
 
 
-# File music recognition by Shazam (files.py)
+# File music recognition via Shazam (files.py)
 
 Code designed to split music files into 30-second chunks and then search each part using the Shazam API to recognize the song in each chunk. By splitting the music file into smaller segments the script can identify the individual songs within the larger file like music program recording and various music mixes. 
 
