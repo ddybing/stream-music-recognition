@@ -34,7 +34,7 @@ def create_callback():
 
 
 async def recognize(file_path):
-    out = await shazam.recognize_song(file_path)
+    out = await shazam.recognize(file_path)
     if "track" in out:
         with open(output_file, 'r+') as write_file:
             current_song = out["track"]["subtitle"] + " - " + out["track"]["title"]
