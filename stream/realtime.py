@@ -18,7 +18,7 @@ def create_callback():
     # check create and wait when fragment should recorded
     def on_create(event):
         source_path = event.src_path
-        file_name = source_path.split(dir, 1)[1]
+        file_name = source_path.split(path_to_dir, 1)[1]
         if file_name.split(".")[1] == music_extension:
             print(f"{file_name} was just created, wait when record ends...")
 
